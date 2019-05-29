@@ -58,6 +58,13 @@
 		2A36A5F0229EB23200CFD9CE /* HeaderComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5DD229EB23200CFD9CE /* HeaderComposer.swift */; };
 		2A36A5F1229EB23200CFD9CE /* Headable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5DE229EB23200CFD9CE /* Headable.swift */; };
 		2A36A5F2229EB23200CFD9CE /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5DF229EB23200CFD9CE /* ContentType.swift */; };
+		2A36A5F5229EDF2600CFD9CE /* ReactiveAlamofireRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5F4229EDF2600CFD9CE /* ReactiveAlamofireRequestExecutor.swift */; };
+		2A36A5F9229EEC8C00CFD9CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5F8229EEC8C00CFD9CE /* LoginViewController.swift */; };
+		2A36A5FB229EED2F00CFD9CE /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5FA229EED2F00CFD9CE /* LoginProvider.swift */; };
+		2A36A5FE229EEF7800CFD9CE /* LoginDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A5FD229EEF7800CFD9CE /* LoginDTO.swift */; };
+		2A36A603229EF95B00CFD9CE /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A36A602229EF95B00CFD9CE /* Login.json */; };
+		2A36A606229EFE0B00CFD9CE /* LoginEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A605229EFE0B00CFD9CE /* LoginEndpoint.swift */; };
+		2A36A608229EFE8500CFD9CE /* LoginMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36A607229EFE8500CFD9CE /* LoginMock.swift */; };
 		957FB13F03A42B846EB30CD7 /* Pods_UnrepeatableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF459A9C3839566629D9D365 /* Pods_UnrepeatableTests.framework */; };
 		D7CC5D3B2531C056BB0C3315 /* Pods_Unrepeatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B7E5A3D4AAC6B42153143 /* Pods_Unrepeatable.framework */; };
 /* End PBXBuildFile section */
@@ -129,6 +136,13 @@
 		2A36A5DD229EB23200CFD9CE /* HeaderComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderComposer.swift; sourceTree = "<group>"; };
 		2A36A5DE229EB23200CFD9CE /* Headable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Headable.swift; sourceTree = "<group>"; };
 		2A36A5DF229EB23200CFD9CE /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		2A36A5F4229EDF2600CFD9CE /* ReactiveAlamofireRequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveAlamofireRequestExecutor.swift; sourceTree = "<group>"; };
+		2A36A5F8229EEC8C00CFD9CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A36A5FA229EED2F00CFD9CE /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		2A36A5FD229EEF7800CFD9CE /* LoginDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDTO.swift; sourceTree = "<group>"; };
+		2A36A602229EF95B00CFD9CE /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
+		2A36A605229EFE0B00CFD9CE /* LoginEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEndpoint.swift; sourceTree = "<group>"; };
+		2A36A607229EFE8500CFD9CE /* LoginMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMock.swift; sourceTree = "<group>"; };
 		3F3DAC2AE08C702767EF3577 /* Pods-Unrepeatable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unrepeatable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unrepeatable/Pods-Unrepeatable.debug.xcconfig"; sourceTree = "<group>"; };
 		7DDCF64A00F51FB76443463B /* Pods-UnrepeatableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnrepeatableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnrepeatableTests/Pods-UnrepeatableTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8801734BB94DC2CB8A6408AA /* Pods-UnrepeatableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnrepeatableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnrepeatableTests/Pods-UnrepeatableTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +195,8 @@
 			children = (
 				2A36A576229EB20F00CFD9CE /* CrossFunctional */,
 				2A36A5C0229EB23200CFD9CE /* Error */,
+				2A36A5FC229EEF5C00CFD9CE /* ExampleDTO */,
+				2A36A5F6229EEC5E00CFD9CE /* Feature */,
 				2A36A5C4229EB23200CFD9CE /* Networking */,
 				2A36A5E0229EB23200CFD9CE /* Persistence */,
 				2A36A5F3229EB24200CFD9CE /* Resources */,
@@ -200,13 +216,13 @@
 		2A36A576229EB20F00CFD9CE /* CrossFunctional */ = {
 			isa = PBXGroup;
 			children = (
+				2A36A597229EB20F00CFD9CE /* Current */,
+				2A36A5A3229EB20F00CFD9CE /* Environment */,
+				2A36A582229EB20F00CFD9CE /* Extensions */,
+				2A36A59B229EB20F00CFD9CE /* Navigator */,
+				2A36A599229EB20F00CFD9CE /* OSLog */,
 				2A36A57A229EB20F00CFD9CE /* UI */,
 				2A36A580229EB20F00CFD9CE /* UserDefaults */,
-				2A36A582229EB20F00CFD9CE /* Extensions */,
-				2A36A597229EB20F00CFD9CE /* Current */,
-				2A36A599229EB20F00CFD9CE /* OSLog */,
-				2A36A59B229EB20F00CFD9CE /* Navigator */,
-				2A36A5A3229EB20F00CFD9CE /* Environment */,
 			);
 			path = CrossFunctional;
 			sourceTree = "<group>";
@@ -488,6 +504,7 @@
 			children = (
 				2A36A5D8229EB23200CFD9CE /* RequestExecutor.swift */,
 				2A36A5D9229EB23200CFD9CE /* AlamofireRequestExecutor.swift */,
+				2A36A5F4229EDF2600CFD9CE /* ReactiveAlamofireRequestExecutor.swift */,
 			);
 			path = Executor;
 			sourceTree = "<group>";
@@ -529,6 +546,50 @@
 				2A36A555229EB1B700CFD9CE /* ViewController.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A36A5F6229EEC5E00CFD9CE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A5F7229EEC7E00CFD9CE /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		2A36A5F7229EEC7E00CFD9CE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A604229EFDF700CFD9CE /* Business */,
+				2A36A5F8229EEC8C00CFD9CE /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2A36A5FC229EEF5C00CFD9CE /* ExampleDTO */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A5FF229EF6B000CFD9CE /* Mock */,
+				2A36A5FD229EEF7800CFD9CE /* LoginDTO.swift */,
+			);
+			path = ExampleDTO;
+			sourceTree = "<group>";
+		};
+		2A36A5FF229EF6B000CFD9CE /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A602229EF95B00CFD9CE /* Login.json */,
+				2A36A607229EFE8500CFD9CE /* LoginMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		2A36A604229EFDF700CFD9CE /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				2A36A5FA229EED2F00CFD9CE /* LoginProvider.swift */,
+				2A36A605229EFE0B00CFD9CE /* LoginEndpoint.swift */,
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 		6A1A1A89E94DEC2006204B9F /* Frameworks */ = {
@@ -639,6 +700,7 @@
 				2A36A561229EB1B800CFD9CE /* LaunchScreen.storyboard in Resources */,
 				2A36A55E229EB1B800CFD9CE /* Assets.xcassets in Resources */,
 				2A36A559229EB1B700CFD9CE /* Main.storyboard in Resources */,
+				2A36A603229EF95B00CFD9CE /* Login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +788,9 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
 				"${BUILT_PRODUCTS_DIR}/Tagged/Tagged.framework",
 			);
@@ -736,6 +801,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tagged.framework",
 			);
@@ -756,6 +824,7 @@
 				2A36A5F0229EB23200CFD9CE /* HeaderComposer.swift in Sources */,
 				2A36A5A6229EB20F00CFD9CE /* StyleBorderView.swift in Sources */,
 				2A36A5EB229EB23200CFD9CE /* HTTPMethodAdapter.swift in Sources */,
+				2A36A606229EFE0B00CFD9CE /* LoginEndpoint.swift in Sources */,
 				2A36A5B9229EB20F00CFD9CE /* DataStorage.swift in Sources */,
 				2A36A5EF229EB23200CFD9CE /* HTTPRequestBuilder.swift in Sources */,
 				2A36A5B2229EB20F00CFD9CE /* UITableView+Dequeueable.swift in Sources */,
@@ -775,11 +844,13 @@
 				2A36A5E4229EB23200CFD9CE /* JSONResponse.swift in Sources */,
 				2A36A5B5229EB20F00CFD9CE /* UIEdgeInsets+Extension.swift in Sources */,
 				2A36A5A5229EB20F00CFD9CE /* StyleCircleImageView.swift in Sources */,
+				2A36A608229EFE8500CFD9CE /* LoginMock.swift in Sources */,
 				2A36A5AA229EB20F00CFD9CE /* UserDefaults.swift in Sources */,
 				2A36A5A7229EB20F00CFD9CE /* DequeueableNib.swift in Sources */,
 				2A36A5BC229EB20F00CFD9CE /* ViewControllerStorable.swift in Sources */,
 				2A36A5E5229EB23200CFD9CE /* AlamofireResponseParser.swift in Sources */,
 				2A36A5E7229EB23200CFD9CE /* HTTPRequest.swift in Sources */,
+				2A36A5FE229EEF7800CFD9CE /* LoginDTO.swift in Sources */,
 				2A36A5ED229EB23200CFD9CE /* RequestExecutor.swift in Sources */,
 				2A36A5B4229EB20F00CFD9CE /* Data+EncodeDict.swift in Sources */,
 				2A36A5BF229EB20F00CFD9CE /* Environment.swift in Sources */,
@@ -788,9 +859,12 @@
 				2A36A5E1229EB23200CFD9CE /* NetworkingError.swift in Sources */,
 				2A36A5B1229EB20F00CFD9CE /* UICollectionView+Dequeueable.swift in Sources */,
 				2A36A5B8229EB20F00CFD9CE /* NavigationStrategy.swift in Sources */,
+				2A36A5FB229EED2F00CFD9CE /* LoginProvider.swift in Sources */,
 				2A36A5BA229EB20F00CFD9CE /* StoryboardInitiable.swift in Sources */,
+				2A36A5F9229EEC8C00CFD9CE /* LoginViewController.swift in Sources */,
 				2A36A5B0229EB20F00CFD9CE /* UICollectionViewCell+Dequeueable.swift in Sources */,
 				2A36A5F1229EB23200CFD9CE /* Headable.swift in Sources */,
+				2A36A5F5229EDF2600CFD9CE /* ReactiveAlamofireRequestExecutor.swift in Sources */,
 				2A36A5BE229EB20F00CFD9CE /* Navigator.swift in Sources */,
 				2A36A5F2229EB23200CFD9CE /* ContentType.swift in Sources */,
 				2A36A5B3229EB20F00CFD9CE /* CGFloat+Extension.swift in Sources */,

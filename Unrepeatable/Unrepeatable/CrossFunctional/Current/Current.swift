@@ -30,3 +30,15 @@ let current: CurrentEnvironment = {
                               requestProvider: requestProvider,
                               requestBuilder: requestBuilder)
 }()
+
+let currentReactive: CurrentEnvironment = {
+    let responseParser: ResponseParser = AlamofireResponseParser(decoder: JSONDecoder())
+    let requestExecutor: RequestExecutor = ReactiveAlamofireRequestExecutor(responseParser: responseParser)
+    let requestProvider: RequestProvider = PromiseRequestProvider(command: requestExecutor)
+    let requestBuilder: HTTPRequestBuildeable = HTTPRequestBuilder()
+
+    return CurrentEnvironment(responseParser: responseParser,
+                              requestExecutor: requestExecutor,
+                              requestProvider: requestProvider,
+                              requestBuilder: requestBuilder)
+}()

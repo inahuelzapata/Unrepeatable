@@ -5,6 +5,8 @@ target 'Unrepeatable' do
   pod 'PromiseKit', '6.8.4'
   pod 'SkeletonView', '1.5'
   pod 'Kingfisher', '5.5.0'
+  pod 'ReactiveSwift', '5.0'
+  pod 'ReactiveCocoa', '9.0'
   # Pods for Unrepeatable
 
   target 'UnrepeatableTests' do

@@ -8,7 +8,12 @@
 
 import Foundation
 import PromiseKit
+import ReactiveSwift
 
 protocol HTTPResponse { }
 
 extension Promise: HTTPResponse { }
+
+extension SignalProducer: HTTPResponse { }
+
+extension Signal: HTTPResponse { }

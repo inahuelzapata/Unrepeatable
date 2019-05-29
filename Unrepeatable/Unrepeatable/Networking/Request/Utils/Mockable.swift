@@ -9,11 +9,11 @@
 import Alamofire
 import Foundation
 
- protocol FileBundle {
+protocol FileBundle {
     var filename: String { get }
 }
 
- protocol Mockable {
+protocol Mockable {
     var mockData: Data { get }
 
     var shouldSucceed: Bool { get }
@@ -23,13 +23,13 @@ import Foundation
     func stubJSONData(file: FileBundle, bundle: Bundle) throws -> Data
 }
 
- extension Mockable {
+extension Mockable {
     var dataResponse: DataResponse<Any> {
         return DataResponse<Any>(request: nil,
                                  response: nil,
                                  data: self.mockData,
                                  result: self.shouldSucceed ? .success(self.mockData.encodeToDict())
-                                    : .failure(NetworkingError.parsing))
+                                     : .failure(NetworkingError.parsing))
     }
 
     func stubJSONData(file: FileBundle, bundle: Bundle = .main) throws -> Data {
